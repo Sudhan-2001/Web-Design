@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sudhan website</title>
+    <link rel="shortcut icon" href="./image/chan.jpg" type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="./main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fondawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+    
+    <div>
+        <h2 class="topic">WEB DESIGN</h2>
+    </div>
+        <div class="nav-toggler" ><i class="navIcon fa fa-bars"></i>
+            <i class="navIcon fa fa-times hidden" ></i>
+        </div>
+        <ul class="header-menu ">
+            <li class="header-menu-item"><a href="#" class="active">HOME</a></li>
+            <li class="header-menu-item"><a href="#about">ABOUT</a></li>
+            <li class="header-menu-item"><a href="#roadmap">ROADMAP</a></li>
+            <li class="header-menu-item"><a href="#course">COURSE</a></li>
+            <li class="header-menu-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+    </header>
+    
+<script>
+const navdog = document.querySelector(".nav-toggler");
+
+navdog.addEventListener("click",()=>{
+    const header = document.querySelector("ul.header-menu");
+    const navIcon = document.querySelectorAll(".navIcon");
+
+   header.classList.toggle(".show");
+
+    navIcon.forEach(icon =>{
+        icon.classList.toggle(".hidden");
+    });
+});
+
+</script>
+<!--<script>
+    const menubutton = document.querySelector('.menu-button')
+    const headermenu = document.querySelector('.header-menu')
+
+    menubutton.addEventListener('click',()=>{
+        header-menu.classList.toggle('mobile-menu')
+    })
+</script>
+-->
+
+    <!--main--->
+    <main class="main">
+
+        <section class="hero-area">
+            <div class="background-shapes">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="heart" <i class="fa fa-envelope"></i>D</div>
+            </div>
+            <div class="hero-area-text">
+                <h3 class="hero-area-title">#1 platform to learn from Jack Sudhan Website <span class="tamil">தமிழ்</span></h3>
+                <p class="hero-area-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio enim ut nemo dolore exercitationem non ex. Maiores, incidunt consequatur volupt</p>
+            
+            <div class="button">
+                    <button class="btn"><i class="fa fa-globe"></i> Watch it</button>
+                    <button class="btn"><i class="fa fa-envelope"></i> Learn it</button>
+                    <button class="btn"><i class="fa fa-trash"></i> Test it</button>
+            </div>
+                
+            </div>
+            <div>
+                <img src="./image/com.jpg" class="lap">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div>
+                <img src="./image/webpngc.png" class="about-area" alt="web design">
+            </div>
+            <div class="about-area-content">
+                <h3>About the Sudhan Website</h3>
+                <p>
+                    it is very familer <a href="www.w3school">website</a>, it is very useful website and userfriendly ajkdfhljkhf ajksdfkjlashf jakldjrfhwue ambdjfhjwern kajhdorfin in. 
+                </p>
+            </div>
+        </section>
+
+        <section id="roadmap" class="roadmap">
+            <div class="roadmap-heading">
+            <h1>Road Map to Begin</h1>
+            <p>Start it Fast, and Make it Good</p>
+            <div class="line"></div>
+            </div>
+        <div class="roadmap-items">    
+        <div class="roadmap-item">
+            <div class="roadmap--item__img"><img src="./image/html.png" width="70px" alt="HTML">
+            </div>
+            <div class="roadmap--item__content">
+                <h5>Learn HTML</h5>
+                <p>Learn HTML easy in our webpage in tamil</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap--item__img"><img src="./image/css.png" width="70px" alt="HTML">
+            </div>
+            <div class="roadmap--item__content">
+                <h5> Learn CSS</h5>
+                <p><i class="fa fa-chevron-right"></i>Learn HTML easy in our webpage in tamil</p>
+            </div>
+        </div>
+        <div class="roadmap-item">
+            <div class="roadmap--item__img"><img src="./image/js.jpg" width="70px" alt="HTML">
+            </div>
+            <div class="roadmap--item__content">
+                <h5>Learn JS</h5>
+                <p>Learn HTML easy in our webpage and application in tamil</p>
+            </div>
+        </div>
+            
+    </div>
+    </section>
+
+    <section class="course" id="course">
+        <div class="course-heading">
+            <h6>Learn FREE course for Begineers</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+<div class="bunk">
+        <div class="course-cards">
+            <div class="course-card">
+                <a href="" target="_blank">
+                <div><img src="./image/dude3.jpg" class="course-card-img" alt="html">
+                </div>    
+            <div class="course-card-html">
+                <h5>Learn HTML free course</h5>
+                <p>Lorem ipsum adipisicing elit. Eveniet error maiores officiis. Ad dignissimos aliquid similique minus. Optio voluptate</p>
+            </div>
+            </div>
+        </div>
+    </a>
+        
+        <div class="course-cards">
+            <div class="course-card">
+                <a href="" target="_blank">
+                <div><img src="./image/dude2.jpg" class="course-card-img" alt="html">
+                </div>    
+                <div class="course-card-html">
+                <h5>Learn CSS free course</h5>
+                <p>Lorem ipsum adipisicing elit. Eveniet error maiores officiis. Ad dignissimos aliquid similique minus. Optio voluptate</p>
+            </div>
+            </div>
+        </div>
+    </a>
+        
+        <div class="course-cards">
+            <div class="course-card">
+                <a href="" target="_blank">
+                <div>
+                    <img src="./image/dude1.jpg"  class="course-card-img" alt="html">
+                </div>    
+                
+            <div class="course-card-html">
+                <h5>Learn JAVA SCRIPT free course</h5>
+                <p>Lorem ipsum adipisicing elit. Eveniet error maiores officiis. Ad dignissimos aliquid similique minus. Optio voluptate</p>
+            </div>
+            </div>
+        </div>
+    </a>
+    </div>
+        
+        <div class="info">
+            <p>For more courses <i class="fa fa-chevron-right"></i> <a href="w3school.com" target="_blank">Click here</a> </p>
+        </div>
+    </section>
+<section>
+<div class="ani">
+    <div style="background-image: url(./image/smoke.jpg);" class="ani-img">
+    <div class="contain">
+        <div class="banner">
+            <div class="btn-wrapper">
+            <button class="banner-btn">Buy Now</button>
+            <button class="banner-btn">Get Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>   
+</section> 
+
+<section class="contact" id="contact">
+    <div class="contact-card">    
+        
+    <form class="contact-card-content" action="#" method="post" >        
+        <div>    
+            <h4>Send as a Message</h4>
+            <p>Share ur comments to us and us</p>
+        </div>    
+            <br>
+            <div>
+                <input type="text" class="input" name="name"  placeholder="Enter ur Name" maxlength="24" required>
+            </div><br>
+            <div>
+                <input type="text" class="input" name="name" placeholder="Enter ur Number" maxlength="10" required>
+            </div><br>
+            <div>
+                <input type="email" class="input" name="email" placeholder="Enter ur gmail" required></div>
+                <br>
+                <div><textarea class="input resize" name="comments" placeholder="Comments..." rows="8"></textarea></div>
+            <div> <button class="buttonpig">Submit</button></div>     
+        <div class="first" id="first">Jack sudhan</div>
+        <input id="buttons" type="button" value="click" />
+    </form>
+        <div >
+            <img src="./image/chan.jpg" class="image" alt="chan">
+        </div>
+    </div>
+</section>
+
+</main>
+
+
+
+    <!--footer-->
+<footer id="footer">
+    <div>
+        <h2>WEB DESIGN</h2>
+        <p>It is an people <a href="#" target="_blank">choice</a></p>
+    </div>
+    <div class="social-icon">
+        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="copy"><p>&copy copyrights: 2021-2022 All Rights are Reserved</p></div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
